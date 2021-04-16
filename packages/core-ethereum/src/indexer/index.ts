@@ -7,12 +7,12 @@ import Heap from 'heap-js'
 import { pubKeyToPeerId, randomChoice, HoprDB } from '@hoprnet/hopr-utils'
 import { Address, ChannelEntry, AccountEntry, Hash, PublicKey, Balance, Snapshot } from '@hoprnet/hopr-utils'
 import { isConfirmedBlock, snapshotComparator } from './utils'
-import Debug from 'debug'
+import { Logger } from '@hoprnet/hopr-utils'
 import Multiaddr from 'multiaddr'
 
 export type RoutingChannel = [source: PeerId, destination: PeerId, stake: Balance]
 
-const log = Debug('hopr-core-ethereum:indexer')
+const log = Logger.getLogger('hopr-core-ethereum.indexer')
 const getSyncPercentage = (n: number, max: number) => ((n * 100) / max).toFixed(2)
 
 /**
@@ -38,7 +38,7 @@ class Indexer {
    */
   public async start(): Promise<void> {
     if (this.status === 'started') return
-    log(`Starting indexer...`)
+    log.info(`Starting indexer...`)
 
     // wipe indexer, do not use in production
     // await this.wipe()
@@ -49,8 +49,8 @@ class Indexer {
     ])
     this.latestBlock = latestOnChainBlock
 
-    log('Latest saved block %d', latestSavedBlock)
-    log('Latest on-chain block %d', latestOnChainBlock)
+    log.info('Latest saved block %d', latestSavedBlock)
+    log.info('Latest on-chain block %d', latestOnChainBlock)
 
     // go back 'MAX_CONFIRMATIONS' blocks in case of a re-org at time of stopping
     let fromBlock = latestSavedBlock
@@ -62,7 +62,7 @@ class Indexer {
       fromBlock = this.genesisBlock
     }
 
-    log(
+    log.info(
       'Starting to index from block %d, sync progress %d%',
       fromBlock,
       getSyncPercentage(fromBlock - this.genesisBlock, latestOnChainBlock - this.genesisBlock)
@@ -72,17 +72,17 @@ class Indexer {
     const lastBlock = await this.processPastEvents(fromBlock, latestOnChainBlock, this.blockRange)
     fromBlock = lastBlock
 
-    log('Subscribing to events from block %d', fromBlock)
+    log.info('Subscribing to events from block %d', fromBlock)
 
     this.chain.subscribeBlock(this.onNewBlock.bind(this))
     this.chain.subscribeError((error: any) => {
-      log(chalk.red(`etherjs error: ${error}`))
+      log.error(chalk.red(`etherjs error`), error)
       this.restart()
     })
     this.chain.subscribeChannelEvents((e) => this.onNewEvents([e]))
 
     this.status = 'started'
-    log(chalk.green('Indexer started!'))
+    log.info(chalk.green('Indexer started!'))
   }
 
   /**
@@ -90,17 +90,17 @@ class Indexer {
    */
   public async stop(): Promise<void> {
     if (this.status === 'stopped') return
-    log(`Stopping indexer...`)
+    log.info(`Stopping indexer...`)
 
     this.chain.unsubscribe()
 
     this.status = 'stopped'
-    log(chalk.green('Indexer stopped!'))
+    log.info(chalk.green('Indexer stopped!'))
   }
 
   private async restart(): Promise<void> {
     if (this.status === 'restarting') return
-    log('Indexer restaring')
+    log.info('Indexer restaring')
 
     try {
       this.status = 'restarting'
@@ -109,8 +109,7 @@ class Indexer {
       await this.start()
     } catch (err) {
       this.status = 'stopped'
-
-      log(chalk.red('Failed to restart: %s', err.message))
+      log.error(chalk.red('Failed to restart'), err)
     }
   }
 
@@ -148,7 +147,7 @@ class Indexer {
         failedCount++
 
         if (failedCount > 5) {
-          console.error(error)
+          log.error(error)
           throw error
         }
 
@@ -159,8 +158,7 @@ class Indexer {
       await this.onNewBlock(toBlock)
       failedCount = 0
       fromBlock = toBlock
-
-      log(
+      log.info(
         'Sync progress %d% @ block %d',
         getSyncPercentage(fromBlock - this.genesisBlock, maxToBlock - this.genesisBlock),
         toBlock
@@ -193,7 +191,7 @@ class Indexer {
       isConfirmedBlock(this.unconfirmedEvents.top(1)[0].blockNumber, blockNumber, this.maxConfirmations)
     ) {
       const event = this.unconfirmedEvents.pop()
-      log('Processing event %s', event.event)
+      log.info('Processing event %s', event.event)
       // log(chalk.blue(event.blockNumber.toString(), event.transactionIndex.toString(), event.logIndex.toString()))
 
       // if we find a previous snapshot, compare event's snapshot with last processed
@@ -302,11 +300,11 @@ class Indexer {
     const channels = await this.getChannels()
 
     if (channels.length === 0) {
-      log('no channels exist in indexer > hack')
+      log.warn('no channels exist in indexer > hack')
       return undefined
     }
 
-    log('picking random from %d channels', channels.length)
+    log.info('picking random from %d channels', channels.length)
     const random = randomChoice(channels)
     const partyA = await this.getPublicKeyOf(random.partyA)
     return this.toIndexerChannel(await pubKeyToPeerId(partyA.serialize()), random) // TODO: why do we pick partyA?
