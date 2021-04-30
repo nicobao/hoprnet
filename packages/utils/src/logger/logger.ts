@@ -11,7 +11,7 @@ import { configure as log4jsConfigure } from 'log4js'
 import { Configuration as Log4jsConfiguration } from 'log4js'
 
 export class Logger {
-  private logger: Log4jsLogger
+  private readonly logger: Log4jsLogger
 
   private constructor(category?: string) {
     this.logger = getLogger(category)
@@ -24,27 +24,27 @@ export class Logger {
   /**
    * By default, log4js adds an ugly empty list '[]' to the logs when the arg list is empty...
    **/
-  trace(message: any, ...args: any[]): void {
+  trace(message: unknown, ...args: unknown[]): void {
     if (args?.length) this.logger.trace(message, args)
     else this.logger.trace(message)
   }
-  debug(message: any, ...args: any[]): void {
+  debug(message: unknown, ...args: unknown[]): void {
     if (args?.length) this.logger.debug(message, args)
     else this.logger.debug(message)
   }
-  info(message: any, ...args: any[]): void {
+  info(message: unknown, ...args: unknown[]): void {
     if (args?.length) this.logger.info(message, args)
     else this.logger.info(message)
   }
-  warn(message: any, ...args: any[]): void {
+  warn(message: unknown, ...args: unknown[]): void {
     if (args?.length) this.logger.warn(message, args)
     else this.logger.warn(message)
   }
-  error(message: any, ...args: any[]): void {
+  error(message: unknown, ...args: unknown[]): void {
     if (args?.length) this.logger.error(message, args)
     else this.logger.error(message)
   }
-  fatal(message: any, ...args: any[]): void {
+  fatal(message: unknown, ...args: unknown[]): void {
     if (args?.length) this.logger.fatal(message, args)
     else this.logger.fatal(message)
   }

@@ -1,4 +1,3 @@
-import debug from 'debug'
 import { AcknowledgementMessage } from '../../messages/acknowledgement'
 import { Logger } from '@hoprnet/hopr-utils'
 import { PROTOCOL_ACKNOWLEDGEMENT } from '../../constants'

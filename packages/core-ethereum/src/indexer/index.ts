@@ -4,10 +4,20 @@ import type { ChainWrapper } from '../ethereum'
 import chalk from 'chalk'
 import BN from 'bn.js'
 import Heap from 'heap-js'
-import { pubKeyToPeerId, randomChoice, HoprDB } from '@hoprnet/hopr-utils'
-import { Address, ChannelEntry, AccountEntry, Hash, PublicKey, Balance, Snapshot } from '@hoprnet/hopr-utils'
+import {
+  Logger,
+  pubKeyToPeerId,
+  randomChoice,
+  HoprDB,
+  Address,
+  ChannelEntry,
+  AccountEntry,
+  Hash,
+  PublicKey,
+  Balance,
+  Snapshot
+} from '@hoprnet/hopr-utils'
 import { isConfirmedBlock, snapshotComparator } from './utils'
-import { Logger } from '@hoprnet/hopr-utils'
 import Multiaddr from 'multiaddr'
 
 export type RoutingChannel = [source: PeerId, destination: PeerId, stake: Balance]
@@ -176,7 +186,7 @@ class Indexer {
    * @param block
    */
   private async onNewBlock(blockNumber: number): Promise<void> {
-    log('indexer got new block')
+    log.info('indexer got new block')
     // update latest block
     if (this.latestBlock < blockNumber) {
       this.latestBlock = blockNumber
@@ -238,7 +248,7 @@ class Indexer {
 
   private async onAnnouncement(event: Event<'Announcement'>): Promise<void> {
     const account = AccountEntry.fromSCEvent(event)
-    log('New node announced', account.address.toHex())
+    log.info('New node announced', account.address.toHex())
     await this.db.updateAccount(account.address, account)
   }
 

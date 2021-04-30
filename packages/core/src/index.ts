@@ -225,11 +225,11 @@ class Hopr extends EventEmitter {
     this.status = 'RUNNING'
 
     // Log information
-    log('# STARTED NODE')
-    log('ID', this.getId().toB58String())
-    log('Protocol version', VERSION)
-    log(`Available under the following addresses:`)
-    libp2p.multiaddrs.forEach((ma: Multiaddr) => log(ma.toString()))
+    log.info('# STARTED NODE')
+    log.info('ID', this.getId().toB58String())
+    log.info('Protocol version', VERSION)
+    log.info(`Available under the following addresses:`)
+    libp2p.multiaddrs.forEach((ma: Multiaddr) => log.info(ma.toString()))
     this.maybeLogProfilingToGCloud()
   }
 
