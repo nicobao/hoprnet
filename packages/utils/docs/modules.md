@@ -236,7 +236,7 @@ Renames and re-exports [TimeoutOpts](modules.md#timeoutopts)
 
 #### Defined in
 
-[libp2p/addressSorters.ts:35](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/libp2p/addressSorters.ts#L35)
+[libp2p/addressSorters.ts:35](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/libp2p/addressSorters.ts#L35)
 
 ___
 
@@ -260,7 +260,7 @@ ___
 
 #### Defined in
 
-[async/defer.ts:1](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/async/defer.ts#L1)
+[async/defer.ts:1](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/async/defer.ts#L1)
 
 ___
 
@@ -270,7 +270,7 @@ ___
 
 #### Defined in
 
-[libp2p/dialHelper.ts:31](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/libp2p/dialHelper.ts#L31)
+[libp2p/dialHelper.ts:31](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/libp2p/dialHelper.ts#L31)
 
 ___
 
@@ -287,7 +287,7 @@ ___
 
 #### Defined in
 
-[network/hosts.ts:6](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/network/hosts.ts#L6)
+[network/hosts.ts:6](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/network/hosts.ts#L6)
 
 ___
 
@@ -305,7 +305,7 @@ ___
 
 #### Defined in
 
-[libp2p/index.ts:168](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/libp2p/index.ts#L168)
+[libp2p/index.ts:168](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/libp2p/index.ts#L168)
 
 ___
 
@@ -336,7 +336,7 @@ ___
 
 #### Defined in
 
-[libp2p/index.ts:169](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/libp2p/index.ts#L169)
+[libp2p/index.ts:169](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/libp2p/index.ts#L169)
 
 ___
 
@@ -354,7 +354,7 @@ ___
 
 #### Defined in
 
-[network/constants.ts:3](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/network/constants.ts#L3)
+[network/constants.ts:3](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/network/constants.ts#L3)
 
 ___
 
@@ -371,7 +371,7 @@ ___
 
 #### Defined in
 
-[crypto/prg.ts:11](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/crypto/prg.ts#L11)
+[crypto/prg.ts:11](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/crypto/prg.ts#L11)
 
 ___
 
@@ -388,7 +388,7 @@ ___
 
 #### Defined in
 
-[crypto/prp.ts:16](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/crypto/prp.ts#L16)
+[crypto/prp.ts:16](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/crypto/prp.ts#L16)
 
 ___
 
@@ -398,7 +398,7 @@ ___
 
 #### Defined in
 
-[db/db.ts:115](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/db/db.ts#L115)
+[db/db.ts:115](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/db/db.ts#L115)
 
 ___
 
@@ -415,7 +415,7 @@ ___
 
 #### Defined in
 
-[async/abortableTimeout.ts:5](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/async/abortableTimeout.ts#L5)
+[async/abortableTimeout.ts:5](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/async/abortableTimeout.ts#L5)
 
 ___
 
@@ -425,7 +425,7 @@ ___
 
 #### Defined in
 
-[u8a/index.ts:17](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/u8a/index.ts#L17)
+[u8a/index.ts:17](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/u8a/index.ts#L17)
 
 ___
 
@@ -442,7 +442,7 @@ ___
 
 #### Defined in
 
-[db/db.ts:110](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/db/db.ts#L110)
+[db/db.ts:110](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/db/db.ts#L110)
 
 ___
 
@@ -458,7 +458,7 @@ ___
 
 #### Defined in
 
-[db/db.ts:106](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/db/db.ts#L106)
+[db/db.ts:106](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/db/db.ts#L106)
 
 ___
 
@@ -483,9 +483,9 @@ send message. If `includeReply` is set, wait for a response
 
 #### Defined in
 
-[libp2p/index.ts:122](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/libp2p/index.ts#L122)
+[libp2p/index.ts:122](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/libp2p/index.ts#L122)
 
-[libp2p/index.ts:105](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/libp2p/index.ts#L105)
+[libp2p/index.ts:105](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/libp2p/index.ts#L105)
 
 ___
 
@@ -508,9 +508,9 @@ and feeds them to the given handler.
 
 #### Defined in
 
-[libp2p/index.ts:261](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/libp2p/index.ts#L261)
+[libp2p/index.ts:261](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/libp2p/index.ts#L261)
 
-[libp2p/index.ts:246](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/libp2p/index.ts#L246)
+[libp2p/index.ts:246](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/libp2p/index.ts#L246)
 
 ## Variables
 
@@ -520,7 +520,7 @@ and feeds them to the given handler.
 
 #### Defined in
 
-[constants.ts:6](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/constants.ts#L6)
+[constants.ts:6](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/constants.ts#L6)
 
 ___
 
@@ -530,7 +530,7 @@ ___
 
 #### Defined in
 
-[u8a/u8aCompare.ts:2](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/u8a/u8aCompare.ts#L2)
+[u8a/u8aCompare.ts:2](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/u8a/u8aCompare.ts#L2)
 
 ___
 
@@ -540,7 +540,7 @@ ___
 
 #### Defined in
 
-[u8a/u8aCompare.ts:1](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/u8a/u8aCompare.ts#L1)
+[u8a/u8aCompare.ts:1](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/u8a/u8aCompare.ts#L1)
 
 ___
 
@@ -550,7 +550,7 @@ ___
 
 #### Defined in
 
-[u8a/u8aCompare.ts:3](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/u8a/u8aCompare.ts#L3)
+[u8a/u8aCompare.ts:3](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/u8a/u8aCompare.ts#L3)
 
 ___
 
@@ -560,7 +560,7 @@ ___
 
 #### Defined in
 
-[network/constants.ts:27](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/network/constants.ts#L27)
+[network/constants.ts:27](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/network/constants.ts#L27)
 
 ___
 
@@ -570,7 +570,7 @@ ___
 
 #### Defined in
 
-[constants.ts:7](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/constants.ts#L7)
+[constants.ts:7](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/constants.ts#L7)
 
 ___
 
@@ -580,7 +580,7 @@ ___
 
 #### Defined in
 
-[constants.ts:16](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/constants.ts#L16)
+[constants.ts:16](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/constants.ts#L16)
 
 ___
 
@@ -590,7 +590,7 @@ ___
 
 #### Defined in
 
-[u8a/constants.ts:1](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/u8a/constants.ts#L1)
+[u8a/constants.ts:1](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/u8a/constants.ts#L1)
 
 ___
 
@@ -600,7 +600,7 @@ ___
 
 #### Defined in
 
-[network/constants.ts:48](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/network/constants.ts#L48)
+[network/constants.ts:48](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/network/constants.ts#L48)
 
 ___
 
@@ -610,7 +610,7 @@ ___
 
 #### Defined in
 
-[network/constants.ts:62](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/network/constants.ts#L62)
+[network/constants.ts:62](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/network/constants.ts#L62)
 
 ___
 
@@ -620,7 +620,7 @@ ___
 
 #### Defined in
 
-[constants.ts:20](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/constants.ts#L20)
+[constants.ts:20](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/constants.ts#L20)
 
 ___
 
@@ -632,7 +632,7 @@ Maximum random big integer that can be generated using randomInteger function.
 
 #### Defined in
 
-[crypto/randomInteger.ts:18](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/crypto/randomInteger.ts#L18)
+[crypto/randomInteger.ts:18](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/crypto/randomInteger.ts#L18)
 
 ___
 
@@ -644,7 +644,7 @@ Maximum random integer that can be generated using randomInteger function.
 
 #### Defined in
 
-[crypto/randomInteger.ts:144](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/crypto/randomInteger.ts#L144)
+[crypto/randomInteger.ts:144](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/crypto/randomInteger.ts#L144)
 
 ___
 
@@ -654,7 +654,7 @@ ___
 
 #### Defined in
 
-[constants.ts:18](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/constants.ts#L18)
+[constants.ts:18](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/constants.ts#L18)
 
 ___
 
@@ -664,7 +664,7 @@ ___
 
 #### Defined in
 
-[constants.ts:23](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/constants.ts#L23)
+[constants.ts:23](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/constants.ts#L23)
 
 ___
 
@@ -674,7 +674,7 @@ ___
 
 #### Defined in
 
-[constants.ts:12](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/constants.ts#L12)
+[constants.ts:12](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/constants.ts#L12)
 
 ___
 
@@ -684,7 +684,7 @@ ___
 
 #### Defined in
 
-[crypto/por/index.ts:8](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/crypto/por/index.ts#L8)
+[crypto/por/index.ts:8](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/crypto/por/index.ts#L8)
 
 ___
 
@@ -694,7 +694,7 @@ ___
 
 #### Defined in
 
-[crypto/prg.ts:7](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/crypto/prg.ts#L7)
+[crypto/prg.ts:7](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/crypto/prg.ts#L7)
 
 ___
 
@@ -704,7 +704,7 @@ ___
 
 #### Defined in
 
-[crypto/prg.ts:6](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/crypto/prg.ts#L6)
+[crypto/prg.ts:6](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/crypto/prg.ts#L6)
 
 ___
 
@@ -714,7 +714,7 @@ ___
 
 #### Defined in
 
-[crypto/prg.ts:5](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/crypto/prg.ts#L5)
+[crypto/prg.ts:5](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/crypto/prg.ts#L5)
 
 ___
 
@@ -724,7 +724,7 @@ ___
 
 #### Defined in
 
-[constants.ts:14](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/constants.ts#L14)
+[constants.ts:14](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/constants.ts#L14)
 
 ___
 
@@ -734,7 +734,7 @@ ___
 
 #### Defined in
 
-[constants.ts:3](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/constants.ts#L3)
+[constants.ts:3](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/constants.ts#L3)
 
 ___
 
@@ -744,7 +744,7 @@ ___
 
 #### Defined in
 
-[network/constants.ts:34](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/network/constants.ts#L34)
+[network/constants.ts:34](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/network/constants.ts#L34)
 
 ___
 
@@ -754,7 +754,7 @@ ___
 
 #### Defined in
 
-[network/constants.ts:9](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/network/constants.ts#L9)
+[network/constants.ts:9](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/network/constants.ts#L9)
 
 ___
 
@@ -764,7 +764,7 @@ ___
 
 #### Defined in
 
-[network/constants.ts:15](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/network/constants.ts#L15)
+[network/constants.ts:15](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/network/constants.ts#L15)
 
 ___
 
@@ -774,7 +774,7 @@ ___
 
 #### Defined in
 
-[network/constants.ts:21](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/network/constants.ts#L21)
+[network/constants.ts:21](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/network/constants.ts#L21)
 
 ___
 
@@ -784,7 +784,7 @@ ___
 
 #### Defined in
 
-[crypto/prp.ts:13](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/crypto/prp.ts#L13)
+[crypto/prp.ts:13](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/crypto/prp.ts#L13)
 
 ___
 
@@ -794,7 +794,7 @@ ___
 
 #### Defined in
 
-[crypto/prp.ts:12](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/crypto/prp.ts#L12)
+[crypto/prp.ts:12](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/crypto/prp.ts#L12)
 
 ___
 
@@ -804,7 +804,7 @@ ___
 
 #### Defined in
 
-[crypto/prp.ts:14](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/crypto/prp.ts#L14)
+[crypto/prp.ts:14](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/crypto/prp.ts#L14)
 
 ___
 
@@ -814,7 +814,7 @@ ___
 
 #### Defined in
 
-[constants.ts:4](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/constants.ts#L4)
+[constants.ts:4](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/constants.ts#L4)
 
 ___
 
@@ -824,7 +824,7 @@ ___
 
 #### Defined in
 
-[network/constants.ts:75](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/network/constants.ts#L75)
+[network/constants.ts:75](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/network/constants.ts#L75)
 
 ___
 
@@ -846,7 +846,7 @@ Several ECDSA on secp256k1 related constants
 
 #### Defined in
 
-[crypto/constants.ts:4](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/crypto/constants.ts#L4)
+[crypto/constants.ts:4](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/crypto/constants.ts#L4)
 
 ___
 
@@ -856,7 +856,7 @@ ___
 
 #### Defined in
 
-[constants.ts:8](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/constants.ts#L8)
+[constants.ts:8](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/constants.ts#L8)
 
 ___
 
@@ -866,7 +866,7 @@ ___
 
 #### Defined in
 
-[constants.ts:9](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/constants.ts#L9)
+[constants.ts:9](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/constants.ts#L9)
 
 ___
 
@@ -876,7 +876,7 @@ ___
 
 #### Defined in
 
-[constants.ts:10](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/constants.ts#L10)
+[constants.ts:10](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/constants.ts#L10)
 
 ___
 
@@ -886,7 +886,7 @@ ___
 
 #### Defined in
 
-[constants.ts:27](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/constants.ts#L27)
+[constants.ts:27](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/constants.ts#L27)
 
 ___
 
@@ -896,7 +896,7 @@ ___
 
 #### Defined in
 
-[constants.ts:24](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/constants.ts#L24)
+[constants.ts:24](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/constants.ts#L24)
 
 ___
 
@@ -906,7 +906,7 @@ ___
 
 #### Defined in
 
-[constants.ts:5](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/constants.ts#L5)
+[constants.ts:5](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/constants.ts#L5)
 
 ___
 
@@ -918,7 +918,7 @@ Regular expresion used to match b58Strings
 
 #### Defined in
 
-[libp2p/index.ts:28](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/libp2p/index.ts#L28)
+[libp2p/index.ts:28](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/libp2p/index.ts#L28)
 
 ___
 
@@ -928,7 +928,7 @@ ___
 
 #### Defined in
 
-[db/db.mock.ts:13](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/db/db.mock.ts#L13)
+[db/db.mock.ts:13](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/db/db.mock.ts#L13)
 
 ___
 
@@ -947,7 +947,7 @@ ___
 
 #### Defined in
 
-[time.ts:1](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/time.ts#L1)
+[time.ts:1](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/time.ts#L1)
 
 ___
 
@@ -957,7 +957,7 @@ ___
 
 #### Defined in
 
-[index.ts:19](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/index.ts#L19)
+[index.ts:19](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/index.ts#L19)
 
 ## Functions
 

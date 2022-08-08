@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[crypto/hashIterator.ts:4](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/crypto/hashIterator.ts#L4)
+[crypto/hashIterator.ts:4](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/crypto/hashIterator.ts#L4)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[crypto/hashIterator.ts:5](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/crypto/hashIterator.ts#L5)
+[crypto/hashIterator.ts:5](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/crypto/hashIterator.ts#L5)

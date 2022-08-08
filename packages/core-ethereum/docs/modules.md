@@ -52,7 +52,7 @@
 
 #### Defined in
 
-[packages/core-ethereum/src/index.ts:45](https://github.com/hoprnet/hoprnet/blob/master/packages/core-ethereum/src/index.ts#L45)
+[packages/core-ethereum/src/index.ts:45](https://github.com/nicobao/hoprnet/blob/master/packages/core-ethereum/src/index.ts#L45)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-[packages/core-ethereum/src/ethereum.ts:35](https://github.com/hoprnet/hoprnet/blob/master/packages/core-ethereum/src/ethereum.ts#L35)
+[packages/core-ethereum/src/ethereum.ts:35](https://github.com/nicobao/hoprnet/blob/master/packages/core-ethereum/src/ethereum.ts#L35)
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-[packages/core-ethereum/src/index.ts:30](https://github.com/hoprnet/hoprnet/blob/master/packages/core-ethereum/src/index.ts#L30)
+[packages/core-ethereum/src/index.ts:30](https://github.com/nicobao/hoprnet/blob/master/packages/core-ethereum/src/index.ts#L30)
 
 ## Variables
 
@@ -82,7 +82,7 @@ ___
 
 #### Defined in
 
-[packages/core-ethereum/src/constants.ts:6](https://github.com/hoprnet/hoprnet/blob/master/packages/core-ethereum/src/constants.ts#L6)
+[packages/core-ethereum/src/constants.ts:6](https://github.com/nicobao/hoprnet/blob/master/packages/core-ethereum/src/constants.ts#L6)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-[packages/core-ethereum/src/constants.ts:8](https://github.com/hoprnet/hoprnet/blob/master/packages/core-ethereum/src/constants.ts#L8)
+[packages/core-ethereum/src/constants.ts:8](https://github.com/nicobao/hoprnet/blob/master/packages/core-ethereum/src/constants.ts#L8)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 #### Defined in
 
-[packages/core-ethereum/src/ethereum.mock.ts:3](https://github.com/hoprnet/hoprnet/blob/master/packages/core-ethereum/src/ethereum.mock.ts#L3)
+[packages/core-ethereum/src/ethereum.mock.ts:3](https://github.com/nicobao/hoprnet/blob/master/packages/core-ethereum/src/ethereum.mock.ts#L3)
 
 ## Functions
 

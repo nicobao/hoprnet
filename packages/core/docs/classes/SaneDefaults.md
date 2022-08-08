@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[packages/core/src/channel-strategy.ts:83](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/channel-strategy.ts#L83)
+[packages/core/src/channel-strategy.ts:83](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/channel-strategy.ts#L83)
 
 ## Methods
 

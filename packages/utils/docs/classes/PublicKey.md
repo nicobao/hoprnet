@@ -58,7 +58,7 @@
 
 #### Defined in
 
-[types/publicKey.ts:16](https://github.com/hoprnet/hoprnet/blob/master/packages/utils/src/types/publicKey.ts#L16)
+[types/publicKey.ts:16](https://github.com/nicobao/hoprnet/blob/master/packages/utils/src/types/publicKey.ts#L16)
 
 ## Accessors
 

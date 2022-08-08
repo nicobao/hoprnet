@@ -96,7 +96,7 @@
 
 #### Defined in
 
-[packages/core/src/index.ts:89](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/index.ts#L89)
+[packages/core/src/index.ts:89](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/index.ts#L89)
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/index.ts:140](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/index.ts#L140)
+[packages/core/src/index.ts:140](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/index.ts#L140)
 
 ___
 
@@ -132,7 +132,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/environment.ts:45](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/environment.ts#L45)
+[packages/core/src/environment.ts:45](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/environment.ts#L45)
 
 ___
 
@@ -142,7 +142,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/index.ts:155](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/index.ts#L155)
+[packages/core/src/index.ts:155](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/index.ts#L155)
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/channel-strategy.ts:16](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/channel-strategy.ts#L16)
+[packages/core/src/channel-strategy.ts:16](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/channel-strategy.ts#L16)
 
 ___
 
@@ -169,7 +169,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/index.ts:142](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/index.ts#L142)
+[packages/core/src/index.ts:142](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/index.ts#L142)
 
 ## Variables
 
@@ -179,7 +179,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/constants.ts:29](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/constants.ts#L29)
+[packages/core/src/constants.ts:29](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/constants.ts#L29)
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/constants.ts:28](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/constants.ts#L28)
+[packages/core/src/constants.ts:28](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/constants.ts#L28)
 
 ___
 
@@ -209,7 +209,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/constants.ts:8](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/constants.ts#L8)
+[packages/core/src/constants.ts:8](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/constants.ts#L8)
 
 ___
 
@@ -219,7 +219,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/constants.ts:15](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/constants.ts#L15)
+[packages/core/src/constants.ts:15](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/constants.ts#L15)
 
 ___
 
@@ -229,7 +229,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/constants.ts:17](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/constants.ts#L17)
+[packages/core/src/constants.ts:17](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/constants.ts#L17)
 
 ___
 
@@ -239,7 +239,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/constants.ts:16](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/constants.ts#L16)
+[packages/core/src/constants.ts:16](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/constants.ts#L16)
 
 ___
 
@@ -249,7 +249,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/constants.ts:14](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/constants.ts#L14)
+[packages/core/src/constants.ts:14](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/constants.ts#L14)
 
 ___
 
@@ -259,7 +259,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/constants.ts:21](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/constants.ts#L21)
+[packages/core/src/constants.ts:21](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/constants.ts#L21)
 
 ___
 
@@ -269,7 +269,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/constants.ts:26](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/constants.ts#L26)
+[packages/core/src/constants.ts:26](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/constants.ts#L26)
 
 ___
 
@@ -279,7 +279,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/constants.ts:25](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/constants.ts#L25)
+[packages/core/src/constants.ts:25](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/constants.ts#L25)
 
 ___
 
@@ -289,7 +289,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/constants.ts:19](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/constants.ts#L19)
+[packages/core/src/constants.ts:19](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/constants.ts#L19)
 
 ___
 
@@ -299,7 +299,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/constants.ts:23](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/constants.ts#L23)
+[packages/core/src/constants.ts:23](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/constants.ts#L23)
 
 ___
 
@@ -309,7 +309,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/constants.ts:24](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/constants.ts#L24)
+[packages/core/src/constants.ts:24](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/constants.ts#L24)
 
 ___
 
@@ -319,7 +319,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/constants.ts:7](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/constants.ts#L7)
+[packages/core/src/constants.ts:7](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/constants.ts#L7)
 
 ___
 
@@ -329,7 +329,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/constants.ts:22](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/constants.ts#L22)
+[packages/core/src/constants.ts:22](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/constants.ts#L22)
 
 ___
 
@@ -339,7 +339,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/constants.ts:10](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/constants.ts#L10)
+[packages/core/src/constants.ts:10](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/constants.ts#L10)
 
 ___
 
@@ -349,7 +349,7 @@ ___
 
 #### Defined in
 
-[packages/core/src/index.mock.ts:3](https://github.com/hoprnet/hoprnet/blob/master/packages/core/src/index.mock.ts#L3)
+[packages/core/src/index.mock.ts:3](https://github.com/nicobao/hoprnet/blob/master/packages/core/src/index.mock.ts#L3)
 
 ## Functions
 
